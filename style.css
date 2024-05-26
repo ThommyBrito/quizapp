@@ -22,6 +22,16 @@
     --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
 }
 
+body.escuro {
+    --bg-color: #313e51;
+    --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
+    --primary-text-color: #fff;
+    --secondary-text-color: #abc1c1e1;
+    --button-bg: #3b4d66;
+    --shadow: 0px 16px 40px 0px rgba(49, 62 , 81 , 0.14);
+}
+
 body {
     height: 100svh;
     background: var(--bg-mobile) var(--bg-color);
@@ -149,7 +159,6 @@ main{
     .tema {
         gap: 16px;
     }
-
     .tema img {
         width: 24px;
     }
@@ -193,7 +202,7 @@ main{
         gap: 32px;
     }
 
-    .assunto button div {
+    .assuntos button div{
         width: 56px;
         height: 56px;
         padding: 8px;
